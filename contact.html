@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <title>Tea Nest - contact page</title>
+    <link rel="stylesheet" href="Web.css">
+</head>
+<body>
+    <header class="header">
+        <div class="flex">
+               <a href="home.html" class = "logo"><img src="img/logo.jpg" alt=""></a>
+               <nav class="navbar">
+                   <a href="home.html">Home</a>
+                   <a href="about.html">about us</a>
+                   <a href="view_products.html">Products</a>
+                   <a href="order.html">orders</a>
+                   <a href="contact.html">Contact Us</a>
+   
+               </nav>
+               <div class="icons">
+                  <i class="bx bxs-user" id="user-btn" ></i>
+                  <a href="wishlist.php" class="cart-btn"><i class="bx bx-heart"></i><sup>0</sup></a>      
+                  <a href="wishlist.php" class="cart-btn"><i class="bx bx-cart-download"></i><sup>0</sup></a>
+                  <i class="bx bx-list-plus" id="menu-btn" style="font-size : 2rem"></i>
+               </div>
+           </div>
+   </header>
+   <!-- <div class="user-box">
+                   <p>username : <span><?php //echo $_SESSION['user_name']; ?></span></p>
+                   <p>Email: <span><?php //echo $_SESSION['user_email']; ?></span></p>
+                   <a href="login.php" class="btn">Login</a>
+                   <a href="register.php" class="btn">register</a>
+                   <form method="post">
+                       <button type="submit" name="logout" class= "logout-btn">log out</button>
+                   </form>
+   </div> -->
+    <div class="main">
+        <section class="contact">
+        <div class="banner">
+            <h1>Contact Us</h1>
+        </div>
+            <div class="container-contact">
+                <div class="contactInfo">
+                    <div class="box-contact">
+                        <div class="icon-contact"><i class='bx bx-map'></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>I-8 Markaz,<br>Islamabad, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="box-contact">
+                        <div class="icon-contact"><i class='bx bx-phone' ></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>051-44231</p>
+                        </div>
+                    </div>
+                    <div class="box-contact">
+                        <div class="icon-contact"><i class='bx bx-envelope' ></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>teanest@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactForm">
+                    <form>
+                        <h2>Send Message</h2>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea required="required"></textarea>
+                            <span>Type Your Message...</span>
+                        </div>
+                            <button class="btn">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="overlay"></div>
+            <div class="footer-content">
+                <div class="img-box">
+                    <img src="img/logo2.png" alt="">
+                </div>
+                <div class="inner-footer">
+                    <div class="card">
+                        <h3>About Us</h3>
+                        <ul>
+                            <li>about us</li>
+                            <li>our differences</li>
+                            <li>community matters</li>
+                            <li>press</li>
+                            <li>blog</li>
+                            <li>bouqs video</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Services</h3>
+                        <ul>
+                            <li>Order</li>
+                            <li>help Center</li>
+                            <li>Shipping</li>
+                            <li>term of use</li>
+                            <li>account details</li>
+                            <li>my account</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Local</h3>
+                        <ul>
+                            <li>Islamabad</li>
+                            <li>Lahore</li>
+                            <li>Karachi</li>
+                            <li>Multan</li>
+                            <li>Peshawar</li>
+                            <li>Quetta</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>newsletter</h3>
+                        <p>Sign Up for Newsletter</p>
+                        <div class="social-links">
+                            <i class="bx bxl-instagram"></i>
+                            <i class="bx bxl-twitter"></i>
+                            <i class="bx bxl-behance"></i>
+                            <i class="bx bxl-youtube"></i>
+                            <i class="bx bxl-whatsapp"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-footer">
+                    <p>@all right reserved - Javed-Saleh-Saadat</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
